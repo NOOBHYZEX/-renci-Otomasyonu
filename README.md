@@ -1,16 +1,17 @@
-# kayituygulamasi
+Yeni Öğrenci Ekleme
+    Ana ekranda "Yeni Öğrenci" butonuna tıklayarak yeni bir öğrenci eklenir.
+    Açılan formda öğrenci adı, soyadı ve sınav notu girilir.
+    "Kaydet" butonuna basılarak formdan çıkılır ve eklenen öğrenci ana ekrana eklenir.
 
-A new Flutter project.
+Öğrenci Düzenleme
+    Eklenen öğrenciler arasından seçim yapılır.
+    Seçilen öğrencinin alt kısmında "Düzenle" seçeneği bulunur.
+    "Düzenle" seçeneğine tıklandığında öğrencinin adı, soyadı ve sınav notu düzenlenebilir.
 
-## Getting Started
+Sınav Durumu Kontrolü
+    Her öğrenci, aldığı not baz alınarak durumu belirtilir.
+    Aldığı nota göre "Dersten Kaldı", "Dersten Geçti" veya "Bute Kaldı" gibi bir durum belirtilir.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Öğrenci Silme
+    Silinmek istenen öğrenciye ait "Sil" butonuna tıklanır.
+    Öğrenci başarıyla silinir.
